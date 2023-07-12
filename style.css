@@ -1,0 +1,119 @@
+html body{
+    padding:0px;
+    margin:0px;
+    
+    /* box-sizing:border-box; */
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(30, 30, 67, 0.642);
+}
+/* .cart{
+    height:100%;
+    width:100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction:column;
+    padding:20px;
+} */
+
+.cart{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: c;
+    height:250px;
+    width:500px;
+    padding:40px;
+    background-color: antiquewhite;
+    text-align: justify;
+    border-radius: 8px;
+    box-shadow: 2px 4px 20px yellowgreen;
+    position: relative;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width:613px) {
+.cart{
+    width:80%;
+    padding-bottom:50px;
+    padding-left:10px;
+    text-align: justify;
+    padding-top:10px;
+    /* position:relative; */
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+.section1 h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+    
+}
+
+.btn{
+    width:70px;
+    height:20px;
+    position: absolute;
+    right:15px;
+    top:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: azure; */
+}
+.left ,  .right{
+   
+    border-radius: 12px;
+    /* width:20px;
+    height:30px; */
+    
+}
+.leftbtn, .rightbtn {
+    width:20px;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    border-radius: 12px;
+}
+
+.stars {
+    display: flex;
+    margin-bottom:-5px;
+    margin-top:-10px
+}
+.section1 h3 {
+margin:-px 0px 0px -10px;
+}
+.section1 h1{
+    margin-bottom: -5px;
+}
+
+.btn:hover{
+    color:aqua;
+    background-color: aliceblue;
+}
