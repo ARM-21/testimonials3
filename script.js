@@ -19,7 +19,7 @@ function Customerprofile(img,name,content)
 
          
 function createprofile(img,name,content){
-    let Img = `./images/${img}.jpeg`
+    let Img = `${img}.jpeg`
     let c1 = new Customerprofile(Img,name,content);
    customers.push(c1);
 
